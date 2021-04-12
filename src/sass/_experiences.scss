@@ -1,0 +1,80 @@
+#experiences {
+  background: url(/img/codigo.png) no-repeat 50%;
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
+    
+
+	@include breakpoint('tablet-up') { 
+		background-attachment: fixed;
+  }
+  
+  .bg-filter {
+		height: 100%;
+		overflow: auto;
+		width: 100%;
+		background: linear-gradient(282deg,hsla(0,0,0,.73),rgba(27,76,132,.83));
+		background: -moz-linear-gradient(282deg,hsla(0,0,0,.73),rgba(27,76,132,.83));
+		background: -moz-linear-gradient(282deg,hsla(0,0,0,.73),rgba(27,76,132,.83));
+		z-index: 1;
+		@include flexbox;
+		@include flex-direction(column);
+		@include flex-justify-content(center);
+  }
+  
+  .container-experiences {
+    padding: 100px 0;
+
+    @include breakpoint('tablet') { 
+      padding: 150px 0;
+    }
+ 
+
+    .box-title {
+      padding-bottom: 60px;
+    }
+    
+    .card {
+        border: solid 1px $white;
+        margin-bottom: 20px;
+        transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms; 
+        opacity: 0;
+        @include transform(translateY(150px));
+        
+        &.animation{
+          opacity: 1;
+          @include transform(translateY(0px));
+        }
+      .card-header {
+        background-color: transparent;
+        border-bottom: solid 1px $purple;
+      
+        p {
+          color: $purple-ligth;
+          font-size: 20px;
+
+          span{
+            font-size: 0;
+          }
+        }
+        h3 {
+          font-size: 18px;
+          color: $navy-blue;
+          font-weight:700;
+        }
+      }
+
+      .card-body {
+        color: $navy-gray;
+        .card-title {
+          font-size: 16px;
+        }
+        .card-text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

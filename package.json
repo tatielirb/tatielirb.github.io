@@ -1,0 +1,30 @@
+{
+  "name": "tatielirb",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn && gulp ",
+    "watch": "yarn && gulp ",
+    "dev": "yarn && gulp dev ",
+    "dist": "yarn && gulp dist "
+  },
+  "keywords": [],
+  "author": "TatieliRamos",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-livereload": "^4.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1"
+  },
+  "repository": "https://tatielirb@bitbucket.org/tatielirb/tatieli-ramos.git",
+  "dependencies": {
+    "wowjs": "^1.1.3"
+  }
+}

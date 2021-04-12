@@ -1,0 +1,161 @@
+#skills-services {
+	text-align: center;
+	padding: 60px 0;
+
+	@include breakpoint('tablet') { 
+		padding: 100px 0;
+	}
+
+	.box-title {
+		padding-bottom: 60px;
+	}
+
+	.box-services-content{
+		margin-bottom: 60px;
+
+		.services {
+			transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms; 
+	    opacity: 0;
+			@include transform(translateY(150px));
+			
+			&.animation{
+				opacity: 1;
+				@include transform(translateY(0px));
+			}
+
+			.box-services {
+				width: 100px;
+				height: 100px;
+				background: $blue;
+				border-radius: 50%;
+				display: inline-block;
+				font-size: 50px;
+				color: #fff;
+				line-height: 97px;
+				margin-bottom: 20px;
+			}
+			h3 {
+				color: $navy-blue;
+				font-size: 18px;
+				font-weight: 700;
+				margin-bottom: 20px;
+
+				@include breakpoint('tablet') { 
+					font-size: 20px;
+				}
+			}
+
+			p {
+				color:$navy-gray;
+				font-size: 14px;
+				font-weight: 400;
+
+				@include breakpoint('tablet') { 
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.skill {
+		position: relative;	
+		margin-bottom: 10px;
+		
+		.bar {
+			background: $grey-light;
+			width: 100%;
+			display: inline-block;
+			position: relative;
+
+			.tag{
+				background:$purple ;
+				color: $white;
+				font-size: 14px;
+				font-weight: 700;
+				width: 110px;
+				float: left;
+				padding: 3px 0;
+				position: relative;
+				z-index: 9;
+
+				@include breakpoint('tablet') { 
+					font-size: 16px;
+				}
+			}
+
+			.percent{
+				color: $navy-blue;
+				font-size: 14px;
+				font-weight: 400;
+				display: inline-block;
+				float: right;
+				padding: 3px 15px 0 0;
+				position: relative;
+				z-index: 9;
+			}
+
+			.fill {
+				background: $purple-ligth;
+				display: inline-block;
+				float: left;
+				height: 27px;
+				transition: 1.2s 0.2s width ease-in-out;
+				opacity: 0;
+				width: 0;
+				position: absolute;
+				z-index: 0;
+				left: 0;
+				@include breakpoint('tablet') { 
+					height: 30px;
+				}
+
+				&.animation {
+					&.one {
+						width: 10%;
+						opacity: 1;
+					}
+					&.two {
+						width: 20%;
+						opacity: 1;
+					}
+					&.three {
+						width: 30%;
+						opacity: 1;
+					}
+					&.four {
+						width: 40%;
+						opacity: 1;
+					}
+					&.five {
+						width: 50%;
+						opacity: 1;
+					}
+					&.six {
+						width: 60%;
+						opacity: 1;
+					}
+					&.seven {
+						width: 70%;
+						opacity: 1;
+					}
+					&.eight {
+						width: 80%;
+						opacity: 1;
+					}
+					&.nine {
+						width: 90%;
+						opacity: 1;
+					}
+					&.ninety-five {
+						width: 95%;
+						opacity: 1;
+					}
+					&.ten {
+						width: 100%;
+						opacity: 1;
+					}
+				} 			
+			}
+		}
+	}
+}

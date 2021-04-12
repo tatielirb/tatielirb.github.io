@@ -1,0 +1,129 @@
+@mixin breakpoint($size) {
+  @if ($size == 'mobile') { // @include breakpoint('mobile') { }
+    @media screen and (min-width: $mobile) {
+      @content;
+    }
+  }
+
+  @else if ($size == 'mobile-up') { // @include breakpoint('mobile-up') { }
+    @media screen and (min-width: $mobile-up) {
+      @content;
+    }
+  }
+
+  @else if ($size == 'tablet') { // @include breakpoint('tablet') { }
+    @media screen and (min-width: $tablet) {
+      @content;
+    }
+  }
+
+  @else if ($size == 'tablet-up') { // @include breakpoint('tablet-up') { }
+    @media screen and (min-width: $tablet-up) {
+      @content;
+    }
+  }
+
+
+  @else if ($size == 'desktop') { // @include breakpoint('desktop') { }
+    @media screen and (min-width: $desktop) {
+      @content;
+    }
+  }
+
+  @else if ($size == 'desktop-up') { // @include breakpoint('desktop-up') { }
+    @media screen and (min-width: $desktop-up) {
+      @content;
+    }
+  }
+}
+
+// mixins
+//@include transition($transition);
+@mixin transition($transition) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
+
+//@include transitions($transition1, $transition2);
+@mixin transitions($transition1, $transition2) {
+  -moz-transition:   $transition1, $transition2;
+  -o-transition:     $transition1, $transition2;
+  -webkit-transition:$transition1, $transition2;
+  transition:        $transition1, $transition2;
+}
+
+//@include transform($transform);
+@mixin transform($transform) {
+  -moz-transform: $transform;
+  -ms-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+
+//@include flexbox;
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+//@include flex-wrap($prop);
+@mixin flex-wrap($prop) {
+  -moz-flex-wrap: $prop;
+  -ms-flex-wrap: $prop;
+  -webkit-flex-wrap: $prop;
+  flex-wrap: $prop;
+}
+
+//@include flex($values);
+@mixin flex($values) {
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+//@include flex-direction($prop);
+@mixin flex-direction($prop) {
+  -moz-flex-direction: $prop;
+  -ms-flex-direction: $prop;
+  -webkit-flex-direction: $prop;
+  flex-direction: $prop;
+}
+//@include flex-flow($prop1, $prop2);
+@mixin flex-flow($prop1, $prop2) {
+  -moz-flex-flow: $prop1 $prop2;
+  -ms-flex-flow: $prop1 $prop2;
+  -webkit-flex-flow: $prop1 $prop2;
+  flex-flow: $prop1 $prop2;
+}
+//@include flex-grow($val);
+@mixin flex-grow($val) {
+  -moz-flex-grow: $val;
+  -ms-flex-grow: $val;
+  -webkit-flex-grow: $val;
+  flex-grow: $val;
+}
+//@include flex-justify-content($prop);
+@mixin flex-justify-content($prop) {
+  -moz-justify-content: $prop;
+  -ms-justify-content: $prop;
+  -webkit-justify-content: $prop;
+  justify-content: $prop;
+}
+//@include flex-order($val);
+@mixin flex-order($val) {
+  -moz-order: $val;
+  -ms-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
+//@include appearance($val);
+@mixin appearance($value) {
+  -webkit-appearance: $value;
+  -moz-appearance: $value;
+  appearance: $value;
+}
