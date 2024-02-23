@@ -976,157 +976,7 @@ header.animation .descripition h1 {
   opacity: 1;
 }
 
-#experiences {
-  background: url(/img/codigo.png) no-repeat 50%;
-  background-size: cover;
-  background-attachment: scroll;
-  height: 100%;
-  overflow: auto;
-  text-align: center;
-}
-@media screen and (min-width: 992px) {
-  #experiences {
-    background-attachment: fixed;
-  }
-}
-#experiences .bg-filter {
-  height: 100%;
-  overflow: auto;
-  width: 100%;
-  background: linear-gradient(
-    282deg,
-    rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
-  );
-  background: -moz-linear-gradient(
-    282deg,
-    rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
-  );
-  background: -moz-linear-gradient(
-    282deg,
-    rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
-  );
-  z-index: 1;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-#experiences .container-experiences {
-  padding: 100px 0;
-}
-@media screen and (min-width: 768px) {
-  #experiences .container-experiences {
-    padding: 150px 0;
-  }
-}
-#experiences .container-experiences .box-title {
-  padding-bottom: 60px;
-}
-#experiences .container-experiences .card {
-  border: solid 1px #ffffff;
-  margin-bottom: 20px;
-  transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms;
-  opacity: 0;
-  -moz-transform: translateY(150px);
-  -ms-transform: translateY(150px);
-  -webkit-transform: translateY(150px);
-  transform: translateY(150px);
-}
-#experiences .container-experiences .card.animation {
-  opacity: 1;
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-#experiences .container-experiences .card .card-header {
-  background-color: transparent;
-  border-bottom: solid 1px #8955d1;
-}
-#experiences .container-experiences .card .card-header p {
-  color: #a55eea;
-  font-size: 20px;
-}
-#experiences .container-experiences .card .card-header p span {
-  font-size: 0;
-}
-#experiences .container-experiences .card .card-header h3 {
-  font-size: 18px;
-  color: #1b4c84;
-  font-weight: 700;
-}
-#experiences .container-experiences .card .card-body {
-  color: #4b6684;
-}
-#experiences .container-experiences .card .card-body .card-title {
-  font-size: 16px;
-}
-#experiences .container-experiences .card .card-body .card-text {
-  font-size: 14px;
-}
 
-#education-history {
-  text-align: center;
-  padding: 60px 0;
-  overflow-x: hidden;
-}
-@media screen and (min-width: 768px) {
-  #education-history {
-    padding: 100px 0;
-  }
-}
-#education-history .box-title {
-  padding-bottom: 60px;
-}
-#education-history .card {
-  transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms;
-  opacity: 0;
-  -moz-transform: translateY(150px);
-  -ms-transform: translateY(150px);
-  -webkit-transform: translateY(150px);
-  transform: translateY(150px);
-}
-#education-history .card.animation {
-  opacity: 1;
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-#education-history .card .card-left p {
-  margin-top: 10px;
-  color: #a55eea;
-  font-size: 50px;
-}
-#education-history .card .card-left p span {
-  font-size: 0;
-}
-#education-history .card .card-body .card-title {
-  font-size: 18px;
-  color: #1b4c84;
-  font-weight: 700;
-}
-#education-history .card .card-body .card-text {
-  color: #4b6684;
-  font-size: 16px;
-  font-style: italic;
-}
-#education-history .card .card-body .card-text .text-muted {
-  font-size: 14px;
-  font-style: normal;
-}
 
 #contact {
   background: url(/img/codigo.png) no-repeat 50%;
@@ -1139,11 +989,6 @@ header.animation .descripition h1 {
 @media screen and (min-width: 992px) {
   #contact {
     background-attachment: fixed;
-  }
-}
-@media screen and (min-width: 768px) {
-  #contact {
-    padding: 100px 0;
   }
 }
 
@@ -1240,7 +1085,7 @@ footer span {
   }
 }
 footer .to-top {
-  color: #4b6684;
+  color: #fff;
   position: absolute;
   margin: 0 auto;
   animation: shakeArrow 2s infinite linear 600ms;
