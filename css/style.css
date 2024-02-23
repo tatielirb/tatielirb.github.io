@@ -1128,12 +1128,6 @@ header.animation .descripition h1 {
   font-style: normal;
 }
 
-/* #contact {
-  text-align: center;
-  padding: 60px 0;
-  overflow-x: hidden;
-} */
-
 #contact {
   background: url(/img/codigo.png) no-repeat 50%;
   background-size: cover;
@@ -1141,7 +1135,6 @@ header.animation .descripition h1 {
   height: 100%;
   overflow: auto;
   text-align: center;
-  padding: 60px 0;
 }
 @media screen and (min-width: 992px) {
   #contact {
@@ -1187,6 +1180,15 @@ header.animation .descripition h1 {
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
+}
+
+#contact  .container-contact {
+  padding: 100px 0;
+}
+@media screen and (min-width: 768px) {
+  #contact  .container-contact {
+    padding: 150px 0;
+  }
 }
 
 #contact ul {
