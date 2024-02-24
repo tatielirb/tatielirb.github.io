@@ -18,7 +18,7 @@
      var $sections = $('main > section'),
        topDistance = $(window).scrollTop(),
        nextActive,
-       $navItems = $('header .navbar #navbarNav .navbar-nav .nav-item'),
+       $navItems = $('header .navbar #navbarToggleExternalContent .navbar-nav .nav-item'),
        current = $navItems.filter('.active').find('.nav-link').attr('data-link');
 
      $sections.each(function () {
@@ -76,7 +76,7 @@
   // Collapse navbar if an internal item is clicked on mobile layout.
   $('header .nav-item .nav-link').on('click', function() {
     if ($('html').hasClass('mobile')) {
-      $('#navbarNav').collapse('hide');
+      $('#navbarToggleExternalContent').collapse('hide');
     }
   });
 
