@@ -533,7 +533,7 @@ header .arrow {
 header .arrow p {
   font-size: 0px;
 }
-header .arrow span {
+header .arrow i {
   font-size: 30px;
 }
 header.animation .descripition .logo {
@@ -1076,11 +1076,11 @@ footer {
     font-size: 20px;
   }
 }
-footer span {
+footer i {
   font-size: 20px;
 }
 @media screen and (min-width: 768px) {
-  footer span {
+  footer i {
     font-size: 24px;
   }
 }
@@ -1099,7 +1099,7 @@ footer .to-top {
 footer .to-top p {
   font-size: 0px;
 }
-footer .to-top span {
+footer .to-top i {
   font-size: 30px;
 }
 
