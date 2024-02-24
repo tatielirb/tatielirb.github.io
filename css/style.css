@@ -605,7 +605,7 @@ header.animation .descripition h1 {
 }
 #portfolio .box-customers .customers .bg-portfolio .hover {
   display: block;
-  background: rgba(165, 94, 234, 0.8);
+  background: rgba(75, 102, 132, 0.8);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -757,17 +757,17 @@ header.animation .descripition h1 {
   background: linear-gradient(
     282deg,
     rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
+    rgba(27, 76, 132, 0.95)
   );
   background: -moz-linear-gradient(
     282deg,
     rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
+    rgba(27, 76, 132, 0.95)
   );
   background: -moz-linear-gradient(
     282deg,
     rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
+    rgba(27, 76, 132, 0.95)
   );
   z-index: 1;
   display: -webkit-box;
