@@ -16,6 +16,7 @@ button {
   transition: all 1s ease;
   background: transparent;
   margin: 0 auto 20px;
+  width: 250px;
 }
 @media screen and (min-width: 992px) {
   button {
