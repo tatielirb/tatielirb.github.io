@@ -294,7 +294,7 @@ main {
 }
 
 header {
-  background: url(/img/header-bg-computer.jpg) no-repeat 50%;
+  background: url(../img/header-bg-computer.jpg) no-repeat 50%;
   background-size: cover;
   background-attachment: scroll;
   height: 100%;
@@ -747,7 +747,13 @@ header.animation .description h1 {
 #portfolio .box-customers .customers:hover .bg-portfolio .valign .center h3,
 #portfolio .box-customers .customers:hover .bg-portfolio .valign .center h4,
 #portfolio .box-customers .customers:hover .bg-portfolio .valign .center p,
-#portfolio .box-customers .customers:hover .bg-portfolio .valign .center .badge {
+#portfolio
+  .box-customers
+  .customers:hover
+  .bg-portfolio
+  .valign
+  .center
+  .badge {
   opacity: 1;
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -756,7 +762,7 @@ header.animation .description h1 {
 }
 
 #about {
-  background: url(/img/about.jpg) no-repeat 50%;
+  background: url(../img/about.jpg) no-repeat 50%;
   background-size: cover;
   background-attachment: scroll;
   height: 100%;
@@ -834,79 +840,30 @@ header.animation .description h1 {
   transform: translateY(0px);
 }
 
-#skills-services {
+#skills {
   text-align: center;
   padding: 60px 0;
 }
 @media screen and (min-width: 768px) {
-  #skills-services {
+  #skills {
     padding: 100px 0;
   }
 }
-#skills-services .box-title {
+#skills .box-title {
   padding-bottom: 60px;
 }
-#skills-services .box-services-content {
-  margin-bottom: 60px;
-}
-#skills-services .box-services-content .services {
-  transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms;
-  opacity: 0;
-  -moz-transform: translateY(150px);
-  -ms-transform: translateY(150px);
-  -webkit-transform: translateY(150px);
-  transform: translateY(150px);
-}
-#skills-services .box-services-content .services.animation {
-  opacity: 1;
-  -moz-transform: translateY(0px);
-  -ms-transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-}
-#skills-services .box-services-content .services .box-services {
-  width: 100px;
-  height: 100px;
-  background: #2d99da;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 50px;
-  color: #fff;
-  line-height: 97px;
-  margin-bottom: 20px;
-}
-#skills-services .box-services-content .services h3 {
-  color: #1b4c84;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-@media screen and (min-width: 768px) {
-  #skills-services .box-services-content .services h3 {
-    font-size: 20px;
-  }
-}
-#skills-services .box-services-content .services p {
-  color: #4b6684;
-  font-size: 14px;
-  font-weight: 400;
-}
-@media screen and (min-width: 768px) {
-  #skills-services .box-services-content .services p {
-    font-size: 16px;
-  }
-}
-#skills-services .skill {
+
+#skills .skill {
   position: relative;
   margin-bottom: 10px;
 }
-#skills-services .skill .bar {
+#skills .skill .bar {
   background: #d3d8de;
   width: 100%;
   display: inline-block;
   position: relative;
 }
-#skills-services .skill .bar .tag {
+#skills .skill .bar .tag {
   background: #8955d1;
   color: #ffffff;
   font-size: 14px;
@@ -918,11 +875,11 @@ header.animation .description h1 {
   z-index: 9;
 }
 @media screen and (min-width: 768px) {
-  #skills-services .skill .bar .tag {
+  #skills .skill .bar .tag {
     font-size: 16px;
   }
 }
-#skills-services .skill .bar .percent {
+#skills .skill .bar .percent {
   color: #1b4c84;
   font-size: 14px;
   font-weight: 400;
@@ -932,7 +889,7 @@ header.animation .description h1 {
   position: relative;
   z-index: 9;
 }
-#skills-services .skill .bar .fill {
+#skills .skill .bar .fill {
   background: #a55eea;
   display: inline-block;
   float: left;
@@ -945,56 +902,56 @@ header.animation .description h1 {
   left: 0;
 }
 @media screen and (min-width: 768px) {
-  #skills-services .skill .bar .fill {
+  #skills .skill .bar .fill {
     height: 30px;
   }
 }
-#skills-services .skill .bar .fill.animation.one {
+#skills .skill .bar .fill.animation.one {
   width: 10%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.two {
+#skills .skill .bar .fill.animation.two {
   width: 20%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.three {
+#skills .skill .bar .fill.animation.three {
   width: 30%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.four {
+#skills .skill .bar .fill.animation.four {
   width: 40%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.five {
+#skills .skill .bar .fill.animation.five {
   width: 50%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.six {
+#skills .skill .bar .fill.animation.six {
   width: 60%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.seven {
+#skills .skill .bar .fill.animation.seven {
   width: 70%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.eight {
+#skills .skill .bar .fill.animation.eight {
   width: 80%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.nine {
+#skills .skill .bar .fill.animation.nine {
   width: 90%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.ninety-five {
+#skills .skill .bar .fill.animation.ninety-five {
   width: 95%;
   opacity: 1;
 }
-#skills-services .skill .bar .fill.animation.ten {
+#skills .skill .bar .fill.animation.ten {
   width: 100%;
   opacity: 1;
 }
 
-#skills-services .card {
+#skills .card {
   margin-bottom: 20px;
   transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms;
   opacity: 0;
@@ -1005,7 +962,7 @@ header.animation .description h1 {
   padding: 0;
 }
 
-#skills-services .card.animation {
+#skills .card.animation {
   opacity: 1;
   -moz-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -1013,12 +970,12 @@ header.animation .description h1 {
   transform: translateY(0px);
 }
 
-#skills-services .card .badge {
+#skills .card .badge {
   background: #4b6684;
 }
 
-#contact {
-  background: url(/img/codigo.png) no-repeat 50%;
+#services {
+  background: url(../img/codigo.png) no-repeat 50%;
   background-size: cover;
   background-attachment: scroll;
   height: 100%;
@@ -1026,29 +983,29 @@ header.animation .description h1 {
   text-align: center;
 }
 @media screen and (min-width: 992px) {
-  #contact {
+  #services {
     background-attachment: fixed;
   }
 }
 
-#contact .bg-filter {
+#services .bg-filter {
   height: 100%;
   overflow: auto;
   width: 100%;
   background: linear-gradient(
     282deg,
     rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
+    rgba(27, 76, 132, 0.93)
   );
   background: -moz-linear-gradient(
     282deg,
     rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
+    rgba(27, 76, 132, 0.93)
   );
   background: -moz-linear-gradient(
     282deg,
     rgba(0, 0, 0, 0.73),
-    rgba(27, 76, 132, 0.83)
+    rgba(27, 76, 132, 0.93)
   );
   z-index: 1;
   display: -webkit-box;
@@ -1064,6 +1021,75 @@ header.animation .description h1 {
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
+}
+
+#services .container-services {
+  padding: 100px 0;
+}
+@media screen and (min-width: 768px) {
+  #services .container-services {
+    padding: 150px 0;
+  }
+}
+
+#services .box-services-content {
+  margin-bottom: 60px;
+}
+#services .box-services-content .services {
+  transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms;
+  opacity: 0;
+  -moz-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  -webkit-transform: translateY(150px);
+  transform: translateY(150px);
+}
+#services .box-services-content .services.animation {
+  opacity: 1;
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+#services .box-services-content .services .box-services {
+  width: 100px;
+  height: 100px;
+  background: #4b6684;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 50px;
+  color: #fff;
+  line-height: 97px;
+  margin-bottom: 20px;
+}
+#services .box-services-content .services h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  #services .box-services-content .services h3 {
+    font-size: 20px;
+  }
+}
+#services .box-services-content .services p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  #services .box-services-content .services p {
+    font-size: 16px;
+  }
+}
+
+.bg-geral {
+  background: linear-gradient(282deg, rgba(0, 0, 0, 1), rgba(27, 76, 132, 1));
+}
+
+#contact {
+  text-align: center;
+  padding: 60px 0;
 }
 
 #contact .container-contact {
@@ -1103,7 +1129,6 @@ header.animation .description h1 {
 }
 
 footer {
-  background: #4b6684;
   color: #ffffff;
   font-size: 16px;
   text-align: center;

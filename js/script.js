@@ -171,22 +171,24 @@ $(window).on("resize.scrollMagic load.scrollMagic", function () {
   addScrollMagic("#about .box-title p", 0.95, false);
   addScrollMagic("#about .description", 0.9, false);
 
-  addScrollMagic("#skills-services .box-title h2", 0.95, false);
-  addScrollMagic("#skills-services .box-title .line", 0.95, false);
+  addScrollMagic("#skills .box-title h2", 0.95, false);
+  addScrollMagic("#skills .box-title .line", 0.95, false);
   addScrollMagic(
-    "#skills-services .box-services-content .services",
+    "#skills .box-services-content .services",
     0.9,
     false
   );
-  addScrollMagic("#skills-services .card", 0.9, false);
+  addScrollMagic("#skills .card", 0.9, false);
 
-  addScrollMagic("#experiences .box-title h2", 0.95, false);
-  addScrollMagic("#experiences .box-title .line", 0.95, false);
-  addScrollMagic("#experiences .card", 0.9, false);
-
-  addScrollMagic("#education-history .box-title h2", 0.95, false);
-  addScrollMagic("#education-history .box-title .line", 0.95, false);
-  addScrollMagic("#education-history .card", 0.9, false);
+  addScrollMagic("#services .box-title h2", 0.95, false);
+  addScrollMagic("#services .box-title .line", 0.95, false);
+  addScrollMagic("#services .card", 0.9, false);
+  addScrollMagic("#services .box-title p", 0.95, false);
+  addScrollMagic(
+    "#services .box-services-content .services",
+    0.9,
+    false
+  );
 
   addScrollMagic("#contact .box-title h2", 0.95, false);
   addScrollMagic("#contact .box-title .line", 0.95, false);
