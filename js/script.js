@@ -173,22 +173,14 @@ $(window).on("resize.scrollMagic load.scrollMagic", function () {
 
   addScrollMagic("#skills .box-title h2", 0.95, false);
   addScrollMagic("#skills .box-title .line", 0.95, false);
-  addScrollMagic(
-    "#skills .box-services-content .services",
-    0.9,
-    false
-  );
+  addScrollMagic("#skills .box-services-content .services", 0.9, false);
   addScrollMagic("#skills .card", 0.9, false);
 
   addScrollMagic("#services .box-title h2", 0.95, false);
   addScrollMagic("#services .box-title .line", 0.95, false);
   addScrollMagic("#services .card", 0.9, false);
   addScrollMagic("#services .box-title p", 0.95, false);
-  addScrollMagic(
-    "#services .box-services-content .services",
-    0.9,
-    false
-  );
+  addScrollMagic("#services .box-services-content .services", 0.9, false);
 
   addScrollMagic("#contact .box-title h2", 0.95, false);
   addScrollMagic("#contact .box-title .line", 0.95, false);
