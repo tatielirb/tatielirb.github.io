@@ -16,7 +16,7 @@ button {
   transition: all 1s ease;
   background: transparent;
   margin: 0 auto 20px;
-  width: 250px;
+  width: 250px !important;
 }
 @media screen and (min-width: 992px) {
   button {
@@ -606,7 +606,7 @@ header.animation .descripition h1 {
 }
 #portfolio .box-customers .customers .bg-portfolio .hover {
   display: block;
-  background: rgba(75, 102, 132, 0.8);
+  background: rgba(75, 102, 132, 0.90);
   position: absolute;
   bottom: 0;
   left: 0;
