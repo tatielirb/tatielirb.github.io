@@ -1122,11 +1122,22 @@ header.animation .description h1 {
   font-size: 0;
 }
 #contact ul li a i {
-  font-size: 50px;
+  font-size: 30px;
 }
+@media screen and (min-width: 768px) {
+  #contact ul li a i {
+    font-size: 50px;
+  }
+}
+
 #contact ul li a:hover {
   color: #4b6684;
 }
+
+/* @media screen and (min-width: 768px) {
+ 
+} */
+
 
 footer {
   color: #ffffff;
@@ -1135,19 +1146,7 @@ footer {
   padding: 40px 0 20px;
   position: relative;
 }
-@media screen and (min-width: 768px) {
-  footer {
-    font-size: 20px;
-  }
-}
-footer i {
-  font-size: 20px;
-}
-@media screen and (min-width: 768px) {
-  footer i {
-    font-size: 24px;
-  }
-}
+
 footer .to-top {
   color: #fff;
   position: absolute;
