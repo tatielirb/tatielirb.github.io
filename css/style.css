@@ -809,13 +809,9 @@ header.animation .description h1 {
   justify-content: center;
 }
 #about .container-about {
-  padding: 100px 0;
+  padding: 40px 0;
 }
-@media screen and (min-width: 768px) {
-  #about .container-about {
-    padding: 150px 0;
-  }
-}
+
 #about .container-about .description {
   font-weight: 400;
   font-size: 16px;
@@ -842,12 +838,7 @@ header.animation .description h1 {
 
 #skills {
   text-align: center;
-  padding: 60px 0;
-}
-@media screen and (min-width: 768px) {
-  #skills {
-    padding: 100px 0;
-  }
+  padding: 40px 0;
 }
 #skills .box-title {
   padding-bottom: 60px;
@@ -1024,17 +1015,9 @@ header.animation .description h1 {
 }
 
 #services .container-services {
-  padding: 100px 0;
-}
-@media screen and (min-width: 768px) {
-  #services .container-services {
-    padding: 150px 0;
-  }
+  padding: 40px 0;
 }
 
-#services .box-services-content {
-  margin-bottom: 60px;
-}
 #services .box-services-content .services {
   transition: transform 800ms ease-in-out 150ms, opacity 800ms ease-in-out 150ms;
   opacity: 0;
@@ -1093,12 +1076,7 @@ header.animation .description h1 {
 }
 
 #contact .container-contact {
-  padding: 100px 0;
-}
-@media screen and (min-width: 768px) {
-  #contact .container-contact {
-    padding: 150px 0;
-  }
+  padding: 10px 0;
 }
 
 #contact ul {
@@ -1124,26 +1102,16 @@ header.animation .description h1 {
 #contact ul li a i {
   font-size: 30px;
 }
-@media screen and (min-width: 768px) {
-  #contact ul li a i {
-    font-size: 50px;
-  }
-}
 
 #contact ul li a:hover {
   color: #4b6684;
 }
 
-/* @media screen and (min-width: 768px) {
- 
-} */
-
-
 footer {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
-  padding: 40px 0 20px;
+  padding: 8px 0 10px;
   position: relative;
 }
 
