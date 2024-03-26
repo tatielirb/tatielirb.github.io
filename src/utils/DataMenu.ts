@@ -1,19 +1,23 @@
 export const menuSite = [
   {
-    labelLink: 'Portfolio',
-    link: '',
+    name: 'Portfolio',
+    href: '#',
   },
   {
-    labelLink: 'About Me',
-    link: '',
+    name: 'About Me',
+    href: '#',
   },
   {
-    labelLink: 'Skills',
-    link: '',
+    name: 'Skills',
+    href: '#',
   },
   {
-    labelLink: 'What I do',
-    link: '',
+    name: 'What I do',
+    href: '#',
+  },
+  {
+    name: 'Contacts',
+    href: '#',
   },
 ]
 
