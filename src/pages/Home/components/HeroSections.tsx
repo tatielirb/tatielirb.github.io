@@ -7,7 +7,7 @@ export default function HeroSections() {
   return (
     <div className="hero-sections text-light">
       <div className="hero-sections__filter">
-        <header id="header" className="py-28">
+        <header id="header">
           <Nav items={menuSite} />
 
           <div className="container">
@@ -29,7 +29,7 @@ export default function HeroSections() {
             </div>
           </div>
 
-          <a href="#portfolio" className="arrow">
+          <a href="#portfolio" className="arrow text-light">
             <p>ir para baixo</p>
             <i className="bi bi-chevron-down"></i>
           </a>

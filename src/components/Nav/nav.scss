@@ -2,14 +2,13 @@
 nav {
   &.navbar {
     background: #4b6684;
-    // position: fixed;
+    position: fixed;
     width: 100%;
     z-index: 10;
     top: 0;
     @media screen and (min-width: 992px) {
       background: transparent;
-      padding-top: 80px;
-      //   position: absolute;
+      position: relative;
     }
 
     .navbar-nav {
