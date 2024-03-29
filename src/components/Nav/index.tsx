@@ -1,14 +1,22 @@
 import { NavProps } from 'types/components/Nav'
-export default function Nav({ name, href }: NavProps) {
+import MenuItem from './MenuItem'
+import './nav.scss'
+export default function Nav({ items }: NavProps) {
   return (
-    <div className="space-y-2 py-6">
-      <a
-        key={name}
-        href={href}
-        className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7"
-      >
-        {name}
-      </a>
-    </div>
+    <nav className="flex justify-center items-center pb-10 lg:px-8">
+      <button className="button-menu" type="button">
+        <span className="hamburger">
+          <span className="bars bars-one"></span>
+          <span className="bars bars-two"></span>
+          <span className="bars bars-three"></span>
+        </span>
+      </button>
+
+      <div className="hidden lg:flex lg:gap-x-16">
+        {items.map((item, index) => (
+          <MenuItem key={index} {...item} />
+        ))}
+      </div>
+    </nav>
   )
 }
