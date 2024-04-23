@@ -1,5 +1,5 @@
 @import './../../assets/css/color.scss';
-.card {
+.card-portfolio {
   width: 100%;
   float: left;
   position: relative;
@@ -121,7 +121,7 @@
     }
   }
   &:hover {
-    .card-bg--hover {
+    .card-portfolio-bg--hover {
       height: 100%;
       opacity: 1;
       transition: 0.3s;

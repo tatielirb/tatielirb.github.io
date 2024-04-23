@@ -1,5 +1,5 @@
 export interface TitleProp {
   textTitle: string
-  description: string
+  description?: string
   styleColor?: string
 }

@@ -14,9 +14,9 @@ export default function Card({
     backgroundImage: `url(${imageSrc})`,
   }
   return (
-    <div className="card">
-      <div className="card-bg" style={style}>
-        <span className="card-bg--hover"></span>
+    <div className="card card-portfolio">
+      <div className="card-portfolio-bg" style={style}>
+        <span className="card-portfolio-bg--hover"></span>
         <div className="valign">
           <div className="center row justify-content-center no-gutters">
             <h3>{title}</h3>

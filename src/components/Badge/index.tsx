@@ -1,4 +1,5 @@
 import { badgeProps } from 'types/components/Badge'
+import './badge.scss'
 
 export default function Badge({ nameBadge }: badgeProps) {
   if (!nameBadge || nameBadge.length === 0) {
