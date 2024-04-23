@@ -1,11 +1,11 @@
-import HeroSections from './components/HeroSections'
-import Title from 'components/Title'
+import HeroSections from 'pages/Home/components/HeroSections'
+import Portfolio from 'pages/Home/components/Portfolio'
 
 export default function Home() {
   return (
     <div className="home">
       <HeroSections />
-      <Title textTitle="teste" description="ola tudo bem" styleColor="blue" />
+      <Portfolio />
     </div>
   )
 }
