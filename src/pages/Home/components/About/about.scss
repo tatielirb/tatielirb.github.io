@@ -1,0 +1,18 @@
+@import './../../../../assets/css/color.scss';
+
+.about {
+  background: url(./../../../../assets/img/background/about.jpg) no-repeat 50%;
+
+  .container {
+    padding: 40px 0;
+
+    .description {
+      font-size: 16px;
+      color: $white-color;
+
+      @media screen and (min-width: 768px) {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,31 +1,6 @@
 .hero-sections {
   background: url(./../../../../assets/img/background/header-bg-computer.jpg)
     no-repeat 50%;
-  background-size: cover;
-  background-attachment: scroll;
-  background-attachment: fixed;
-  height: 100%;
-  overflow: auto;
-  position: relative;
-  @media screen and (min-width: 992px) {
-    background-attachment: fixed;
-  }
-
-  &__filter {
-    height: 100%;
-    overflow: auto;
-    width: 100%;
-    background: linear-gradient(
-      282deg,
-      rgba(0, 0, 0, 0.73),
-      rgba(27, 76, 132, 0.73)
-    );
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 80px 0;
-  }
 
   .logo {
     width: 98px;
