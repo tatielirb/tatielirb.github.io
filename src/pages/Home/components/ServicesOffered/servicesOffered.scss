@@ -1,0 +1,33 @@
+@import './../../../../assets/css/color.scss';
+.services-offered {
+  background: url(./../../../../assets/img/background/codigo.png) no-repeat 50%;
+  .services .box-services {
+    width: 100px;
+    height: 100px;
+    background: $slate-blue;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 50px;
+    color: $white-color;
+    line-height: 97px;
+    margin-bottom: 20px;
+
+    .services {
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        @media screen and (min-width: 768px) {
+          font-size: 20px;
+        }
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        @media screen and (min-width: 768px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
