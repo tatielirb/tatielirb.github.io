@@ -23,28 +23,28 @@ export const menuSite = [
 
 export const menuSocialMidas = [
   {
-    platform: 'Linkefin',
-    icon: '',
-    link: 'https://www.linkedin.com/in/tatielirb/',
+    name: 'Linkefin',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/tatielirb/',
   },
   {
-    platform: 'Twitter',
-    icon: '',
-    link: 'https://twitter.com/tatielirb',
+    name: 'Twitter',
+    icon: 'twitter-x',
+    href: 'https://twitter.com/tatielirb',
   },
   {
-    platform: 'Behance',
-    icon: '',
-    link: 'https://www.behance.net/tatielirb',
+    name: 'Behance',
+    icon: 'behance',
+    href: 'https://www.behance.net/tatielirb',
   },
   {
-    platform: 'Github',
-    icon: '',
-    link: 'https://github.com/tatielirb',
+    name: 'Github',
+    icon: 'github',
+    href: 'https://github.com/tatielirb',
   },
   {
-    platform: 'Medium',
-    icon: '',
-    link: 'https://medium.com/@tatielirb',
+    name: 'Medium',
+    icon: 'medium',
+    href: 'https://medium.com/@tatielirb',
   },
 ]

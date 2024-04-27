@@ -1,18 +1,17 @@
 @import './../../../../assets/css/color.scss';
 .services-offered {
   background: url(./../../../../assets/img/background/codigo.png) no-repeat 50%;
-  .services .box-services {
-    width: 100px;
-    height: 100px;
-    background: $slate-blue;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 50px;
-    color: $white-color;
-    line-height: 97px;
-    margin-bottom: 20px;
-
-    .services {
+  .services {
+    .box-services {
+      width: 100px;
+      height: 100px;
+      background: $slate-blue;
+      border-radius: 50%;
+      display: inline-block;
+      font-size: 50px;
+      color: $white-color;
+      line-height: 97px;
+      margin-bottom: 20px;
       h3 {
         font-size: 18px;
         font-weight: 700;

@@ -1,0 +1,38 @@
+@import './../../assets/css/color.scss';
+footer {
+  color: $white-color;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px 0 10px;
+  position: relative;
+  .to-top {
+    color: $white-color;
+    position: absolute;
+    margin: 0 auto;
+    animation: shakeArrow 2s infinite linear 600ms;
+    bottom: 100%;
+    left: 48%;
+    p {
+      font-size: 0px;
+    }
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
+@keyframes shakeArrow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-5px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+}
