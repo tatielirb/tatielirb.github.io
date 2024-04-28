@@ -1,0 +1,147 @@
+@import './../../assets/css/color.scss';
+.card-portfolio {
+  width: 100%;
+  float: left;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 1px;
+  border: transparent;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 992px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 25%;
+  }
+
+  &-bg {
+    display: block;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 0;
+    width: 100%;
+    padding-top: 75%;
+    position: relative;
+
+    &--hover {
+      display: block;
+      background: rgba(75, 102, 132, 0.9);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      transition: 0.4s;
+      opacity: 0;
+      z-index: 1;
+
+      &::before {
+        border-top: 1px solid $white-color;
+        border-bottom: 1px solid $white-color;
+        transform: scale(0, 1);
+      }
+      &::after {
+        border-right: 1px solid $white-color;
+        border-left: 1px solid $white-color;
+        transform: scale(1, 0);
+      }
+
+      &::before,
+      &::after {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        bottom: 30px;
+        left: 30px;
+        content: '';
+        opacity: 0;
+        transition: opacity 0.35s, transform 0.35s;
+      }
+    }
+
+    .valign {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+
+      .center {
+        text-align: center;
+        padding: 20px;
+        color: $white-color;
+
+        h3 {
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 1.2;
+          padding: 5px 1em;
+          text-transform: uppercase;
+          transition: transform 0.35s;
+          transform: translate3d(0, -20px, 0);
+          opacity: 0;
+        }
+
+        h4 {
+          font-size: 26px;
+          line-height: 1.2;
+          font-weight: 700;
+          font-style: italic;
+          transition: transform 0.35s;
+          transform: translate3d(0, -20px, 0);
+          padding: 5px 1em;
+          opacity: 0;
+        }
+        p {
+          font-size: 16px;
+          line-height: 1.2;
+          font-weight: 400;
+          padding: 0 1em;
+          opacity: 0;
+          transition: transform 0.35s;
+          transform: translate3d(0, -20px, 0);
+        }
+
+        .badge {
+          width: 25%;
+          opacity: 0;
+          border: 1px solid $white-color;
+          transition: transform 0.35s;
+          transform: translate3d(0, -20px, 0);
+        }
+      }
+    }
+  }
+  &:hover {
+    .card-portfolio-bg--hover {
+      height: 100%;
+      opacity: 1;
+      transition: 0.3s;
+      &::before,
+      &::after {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .valign {
+      .center {
+        h3,
+        h4,
+        p,
+        .badge {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import './../../assets/css/color.scss';
+.nav-social {
+  ul {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    color: $white-color;
+
+    li {
+      display: inline-block;
+      padding: 20px;
+      a {
+        transition: all 1s ease;
+        color: $white-color !important;
+        p {
+          font-size: 0;
+          opacity: 0;
+        }
+        i {
+          font-size: 30px;
+        }
+        &:hover {
+          color: $slate-blue;
+        }
+      }
+    }
+  }
+}

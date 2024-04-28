@@ -1,0 +1,12 @@
+@import './../../../../assets/css/color.scss';
+.skills {
+  text-align: center;
+  padding: 40px 0;
+
+  .card {
+    margin-bottom: 20px;
+    .badge {
+      background: $slate-blue;
+    }
+  }
+}
