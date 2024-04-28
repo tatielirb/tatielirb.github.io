@@ -10,6 +10,11 @@ import { menuSite } from 'utils/DataMenu'
 export default function Home() {
   return (
     <div className="home">
+      <div role="navigation">
+        <a id="skippy" href="#portfolio" title="Skip to main content">
+          Skip to Main Content
+        </a>
+      </div>
       <Nav items={menuSite} />
       <HeroSections />
       <Portfolio />
