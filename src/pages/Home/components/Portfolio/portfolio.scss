@@ -1,4 +1,56 @@
+@import './../../../../assets/css/color.scss';
 .portfolio {
   position: relative;
   overflow-x: hidden;
+  .box-button {
+    padding: 60px 0px;
+    button {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      font-size: 20px !important;
+      padding: 15px 0px !important;
+      width: 210px;
+      text-align: center;
+      text-decoration: none;
+      overflow: hidden;
+      float: none;
+      border-radius: 0 !important;
+      transition: all 1s ease;
+      background: transparent;
+      margin: 0 auto 20px;
+      width: 250px !important;
+
+      @media screen and (min-width: 992px) {
+        margin: 0;
+      }
+      &.load-more {
+        border: 1px solid $electric-purple;
+        transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        color: $electric-purple;
+        &::before {
+          display: inline-block;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          height: 100%;
+          width: 0px;
+          z-index: -1;
+          content: '';
+          color: $white-color !important;
+          background: $electric-purple;
+          transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+        }
+        &:hover {
+          color: $white-color !important;
+          background-color: transparent;
+          &::before {
+            left: 0%;
+            right: auto;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }
