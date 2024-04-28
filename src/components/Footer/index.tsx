@@ -6,7 +6,7 @@ export default function Footer() {
         Copyright © 2024 Tatieli Ramos Dev, made with lot of
         <i className="bi bi-cup-hot-fill"></i>
       </p>
-      <a href="#" className="to-top">
+      <a href="#hero-sections" className="to-top">
         <p>Voltar ao topo</p>
         <i className="bi bi-arrow-up"></i>
       </a>
