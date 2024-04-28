@@ -1,14 +1,22 @@
 @import './../../assets/css/color.scss';
 nav {
   &.navbar {
-    background: #4b6684;
+    background: $slate-blue;
     position: fixed;
     width: 100%;
     z-index: 10;
     top: 0;
     @media screen and (min-width: 992px) {
       background: transparent;
-      position: relative;
+      position: absolute;
+      background-color: transparent;
+      top: 30px;
+      &.menu-fixed {
+        position: fixed;
+        background-color: $slate-blue;
+        top: 0;
+        transition: 0.4s;
+      }
     }
 
     .navbar-nav {

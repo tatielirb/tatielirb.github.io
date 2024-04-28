@@ -1,7 +1,5 @@
 import './heroSections.scss'
 import logo from 'assets/img/logo-tatieli-ramos.png'
-import Nav from 'components/Nav'
-import { menuSite } from 'utils/DataMenu'
 import useApp from 'hooks/useItemClick'
 
 export default function HeroSections() {
@@ -11,8 +9,6 @@ export default function HeroSections() {
     <div className="hero-sections bg-fixed text-light" id="hero-sections">
       <div className="filter">
         <header id="header">
-          <Nav items={menuSite} />
-
           <div className="container">
             <div className="row">
               <div className="description col-12 align-self-center">
