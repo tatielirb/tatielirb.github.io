@@ -4,6 +4,7 @@ import 'assets/css/index.scss'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'bootstrap/dist/js/bootstrap'
+import 'gsap/dist/gsap'
 import App from 'App'
 import reportWebVitals from './reportWebVitals'
 
