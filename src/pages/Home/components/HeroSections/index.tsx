@@ -2,8 +2,11 @@ import './heroSections.scss'
 import logo from 'assets/img/logo-tatieli-ramos.png'
 import Nav from 'components/Nav'
 import { menuSite } from 'utils/DataMenu'
+import useApp from 'hooks/useItemClick'
 
 export default function HeroSections() {
+  const href = '#portfolio'
+  const scrollToTarget = useApp(href, {})
   return (
     <div className="hero-sections bg-fixed text-light" id="hero-sections">
       <div className="filter">
@@ -29,7 +32,7 @@ export default function HeroSections() {
             </div>
           </div>
 
-          <a href="#portfolio" className="arrow text-light">
+          <a href={href} className="arrow text-light" onClick={scrollToTarget}>
             <p>ir para baixo</p>
             <i className="bi bi-chevron-down"></i>
           </a>
