@@ -1,8 +1,15 @@
 import { MenuItemProps } from 'types/components/Nav'
 import useApp from 'hooks/useItemClick'
 
-export default function MenuItem({ name, href }: MenuItemProps) {
+export default function MenuItem({ name, href, closeNav }: MenuItemProps) {
   const scrollToTarget = useApp(href, {})
+
+  const handleItemClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    if (closeNav) {
+      closeNav()
+    }
+    scrollToTarget(event)
+  }
   return (
     <li className="nav-item">
       <a
@@ -10,7 +17,7 @@ export default function MenuItem({ name, href }: MenuItemProps) {
         href={href}
         data-link={name}
         key={name}
-        onClick={scrollToTarget}
+        onClick={handleItemClick}
       >
         {name}
       </a>

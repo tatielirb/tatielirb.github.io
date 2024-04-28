@@ -52,7 +52,7 @@ export default function Nav({ items }: NavProps) {
         </span>
       </button>
       <div
-        className="collapse navbar-collapse"
+        className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`}
         id="navbarToggleExternalContent"
       >
         <ul className="navbar-nav">
