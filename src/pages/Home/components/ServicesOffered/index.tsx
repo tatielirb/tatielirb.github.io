@@ -5,7 +5,7 @@ import './servicesOffered.scss'
 
 export default function ServicesOffered() {
   return (
-    <div className="services-offered text-light bg-fixed">
+    <div className="services-offered text-light bg-fixed" id="services-offered">
       <div className="filter">
         <Title textTitle="What I do" description="Services and Solutions" />
 

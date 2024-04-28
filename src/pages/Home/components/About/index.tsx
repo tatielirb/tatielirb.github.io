@@ -3,7 +3,7 @@ import './about.scss'
 
 export default function About() {
   return (
-    <div className="about text-light bg-fixed">
+    <div className="about text-light bg-fixed" id="about">
       <div className="filter">
         <Title
           textTitle="About me"

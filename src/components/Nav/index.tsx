@@ -1,18 +1,25 @@
+import { useState } from 'react'
 import { NavProps } from 'types/components/Nav'
 import MenuItem from './MenuItem'
 import './nav.scss'
 
 export default function Nav({ items }: NavProps) {
+  const [isNavOpen, setNavOpen] = useState(false)
+
+  const toggleNav = () => {
+    setNavOpen(!isNavOpen)
+  }
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <button
-        className="button-menu navbar-toggler collapsed"
+        className={`button-menu navbar-toggler ${isNavOpen ? 'show' : ''}`}
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarToggleExternalContent"
         aria-controls="navbarToggleExternalContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        onClick={toggleNav}
       >
         <span className="hamburger">
           <span className="bars bars-one"></span>

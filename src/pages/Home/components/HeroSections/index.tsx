@@ -5,7 +5,7 @@ import { menuSite } from 'utils/DataMenu'
 
 export default function HeroSections() {
   return (
-    <div className="hero-sections bg-fixed text-light">
+    <div className="hero-sections bg-fixed text-light" id="hero-sections">
       <div className="filter">
         <header id="header">
           <Nav items={menuSite} />

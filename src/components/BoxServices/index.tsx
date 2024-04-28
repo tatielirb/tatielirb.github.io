@@ -1,4 +1,5 @@
 import { BoxServicesProps } from 'types/components/BoxServices'
+import './boxservices.scss'
 export default function BoxServices({
   title,
   icon,

@@ -4,7 +4,10 @@
   background: url(./../../../../assets/img/background/about.jpg) no-repeat 50%;
 
   .container {
-    padding: 40px 0;
+    padding: 40px 20px;
+    @media screen and (min-width: 768px) {
+      padding: 40px 0;
+    }
 
     .description {
       font-size: 16px;

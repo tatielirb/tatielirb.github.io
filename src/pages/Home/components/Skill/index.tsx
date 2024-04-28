@@ -5,7 +5,7 @@ import './skill.scss'
 
 export default function Skill() {
   return (
-    <div className="skills">
+    <div className="skills" id="skill">
       <Title textTitle="Skills" styleColor="blue" />
       <div className="container">
         <div className="row">
