@@ -3,11 +3,12 @@ import useApp from 'hooks/useItemClick'
 export default function Footer() {
   const href = '#hero-sections'
   const scrollToTarget = useApp(href, {})
+  const currentYear = new Date().getFullYear()
 
   return (
     <footer>
       <p>
-        Copyright © 2024 Tatieli Ramos Dev, made with lot of
+        Copyright © {currentYear} Tatieli Ramos Dev, made with lot of
         <i className="bi bi-cup-hot-fill"></i>
       </p>
       <a href={href} className="to-top" onClick={scrollToTarget}>
