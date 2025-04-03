@@ -1,5 +1,26 @@
 export const customers = [
   {
+    title: 'CRM Omie',
+    image: 'crm-omie.png',
+    subtitle: 'Internal System',
+    description: 'In service to Omie',
+    badges: ['Web Site', 'Vue JS'],
+  },
+  {
+    title: 'Sharelink',
+    image: 'sharelink.png',
+    subtitle: 'Web site',
+    description: 'In service to INXP',
+    badges: ['Web Site', 'React', 'UX'],
+  },
+  {
+    title: 'Tatieli Ramos',
+    image: 'tatielirb.png',
+    subtitle: 'Portfolio',
+    description: 'In service to Tatieli',
+    badges: ['Web Site', 'React', 'UX'],
+  },
+  {
     title: 'Atlas',
     image: 'atlas-warren.png',
     subtitle: 'Internal System',
