@@ -1,0 +1,26 @@
+{
+  "title": [
+    {
+      "pattern": "^((([A-Z][A-Z0-9]+)-((?!(0{3,}))[0-9]+))|(push #([0-9]+))|Staging into Main)|(Main into Staging)|(hotfix:.+)|(deep:.+)",
+      "message": "Seu título do PR tem que possuir um desses contextos: um JIRA ticket diferente de 000, o número da branch, 'Main into Staging', 'Staging into Main', 'Staging to Main' ou 'hotfix:''"
+    }
+  ],
+  "body": [
+    {
+      "pattern": ".{1,}",
+      "message": "Sem descrição no PR"
+    }
+  ],
+  "assignee.login": [
+    {
+      "pattern": ".+",
+      "message": "Necessário designar a alguém o PR"
+    }
+  ],
+  "labels.0.name": [
+    {
+      "pattern": "chore|ci|deploy|documentation|feature|fix|hotfix|refactor|tests",
+      "message": "Adicione corretamente uma label para o PR"
+    }
+  ]
+}
