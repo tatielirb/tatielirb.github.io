@@ -24,7 +24,7 @@ jobs:
         uses: mikepenz/release-changelog-builder-action@v4
         with:
           configuration: ".github/workflows/configs/release-changelog-config.json"
-          token: ${{ secrets.GH_PAT }} 
+          token: ${{ secrets.GH_SECRET_TATI }} 
 
       - name: Create release changelog
         uses: ncipollo/release-action@v1
@@ -32,4 +32,4 @@ jobs:
           allowUpdates: true
           omitPrereleaseDuringUpdate: true
           body: ${{ steps.github_release.outputs.changelog }}
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GH_SECRET_TATI }}
