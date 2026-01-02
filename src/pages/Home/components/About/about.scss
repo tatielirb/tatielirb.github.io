@@ -1,10 +1,11 @@
 @import './../../../../assets/css/color.scss';
 
 .about {
-  background: url(./../../../../assets/img/background/about.jpg) no-repeat 50%;
+  background: url(./../../../../assets/img/background/about.png) no-repeat 50%;
 
   .container {
     padding: 40px 20px;
+
     @media screen and (min-width: 768px) {
       padding: 40px 0;
     }
