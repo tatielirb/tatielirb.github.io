@@ -23,14 +23,9 @@ export const menuSite = [
 
 export const menuSocialMidas = [
   {
-    name: 'Linkefin',
+    name: 'Linkedin',
     icon: 'linkedin',
     href: 'https://www.linkedin.com/in/tatielirb/',
-  },
-  {
-    name: 'Twitter',
-    icon: 'twitter-x',
-    href: 'https://twitter.com/tatielirb',
   },
   {
     name: 'Behance',
