@@ -1,5 +1,12 @@
 export const customers = [
   {
+    title: 'Design System Omie',
+    image: 'ds-omie.png',
+    subtitle: 'Internal System',
+    description: 'In service to Omie',
+    badges: ['DS', 'Vue JS'],
+  },
+  {
     title: 'CRM Omie',
     image: 'crm-omie.png',
     subtitle: 'Internal System',
