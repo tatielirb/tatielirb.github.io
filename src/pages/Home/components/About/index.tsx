@@ -13,17 +13,10 @@ export default function About() {
           <div className="row justify-content-md-center">
             <div className="description col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 align-self-center">
               <p>
-                Graduated in Systems for Internet by the institution of
-                Technology Alcides Maya with graduation in User Experience by
-                the institution UniRitter. I have been working in the technology
-                field for 13 years, of which 10 years as a developer Software
-                Engineer Front end, specialized in HTLM and CSS, responsive web,
-                accessibility in websites and especilista UX. Eternal student of
-                Java Script. I love teamwork, always strive to show my
-                creativity, increase my knowledge of advanced coding techniques
-                with the goal of bringing the best possible experience to the
-                end user, from basic navigation to complex interactions with the
-                application. Always in search of new challenges always.
+                Frontend Software Engineer with 10+ years of experience building scalable and user-centered web applications.
+                I have a degree in Internet Systems from Alcides Maya Institute of Technology and a specialization in User Experience from UniRitter. My expertise includes HTML, CSS, responsive design, accessibility, and UX driven development.
+                I focus on delivering clean, efficient, and accessible interfaces that provide seamless user experiences, from simple journeys to complex application flows.
+                I’m a strong believer in continuous learning, currently deepening my expertise in JavaScript and modern frontend ecosystems. I thrive in collaborative environments and enjoy solving problems that make a real impact.
               </p>
             </div>
           </div>
