@@ -1,5 +1,12 @@
 export const customers = [
   {
+    title: 'Customer Success - Omie',
+    image: 'csp-omie.png',
+    subtitle: 'Internal System',
+    description: 'In service to Omie',
+    badges: ['TypeScript', 'Vue JS'],
+  },
+  {
     title: 'Design System Omie',
     image: 'ds-omie.png',
     subtitle: 'Internal System',

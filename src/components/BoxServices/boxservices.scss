@@ -1,32 +1,39 @@
 @import './../../assets/css/color.scss';
+
 .box-services-content {
   padding: 0px 20px;
+
   @media screen and (min-width: 768px) {
     padding: 0;
   }
+
   .services {
+    text-align: left;
+    margin-bottom: 30px;
+
     .box-services {
-      width: 100px;
-      height: 100px;
+      width: 3rem;
+      height: 3rem;
+      border-radius: .75rem;
       background: $slate-blue;
-      border-radius: 50%;
       display: inline-block;
-      font-size: 50px;
       color: $white-color;
-      line-height: 97px;
-      margin-bottom: 20px;
     }
+
     h3 {
       font-size: 18px;
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 12px;
+
       @media screen and (min-width: 768px) {
         font-size: 20px;
       }
     }
+
     p {
       font-size: 14px;
       font-weight: 400;
+
       @media screen and (min-width: 768px) {
         font-size: 16px;
       }
