@@ -1,26 +1,47 @@
 export const servicesSolutions = [
   {
     icon: 'code-slash',
-    title: 'WebSites',
-    description:
-      'Front-end development for websites, applications, and systems, using web technologies.',
+    title: 'Frontend Development',
+    description: 'Development of scalable web applications using Vue.js, React, TypeScript and modern Front-end architecture.'
   },
   {
-    icon: 'phone',
-    title: 'Responsive',
-    description:
-      'Development and application of rules for functional layouts on different devices.',
+    icon: 'layers',
+    title: 'Frontend Architecture',
+    description: 'Project organization, scalable architecture, monorepos, reusable components and engineering best practices.'
   },
   {
-    icon: 'window-sidebar',
-    title: 'User Experience Prototyping',
-    description:
-      'Development of low-fidelity prototypes for flow validation and user experience.',
+    icon: 'grid',
+    title: 'Design Systems',
+    description: 'Creation and evolution of Design Systems, reusable component libraries, Storybook documentation and design tokens.'
+  },
+  {
+    icon: 'chat-square-text',
+    title: 'Technical Consulting',
+    description: 'Code review, architecture review, performance analysis and technical guidance for development teams.'
+  },
+  {
+    icon: 'palette',
+    title: 'UX & Product',
+    description: 'Wireframes, usability improvements, user flow analysis and rapid prototyping for digital products.'
   },
   {
     icon: 'universal-access-circle',
     title: 'Accessibility',
-    description:
-      'The concern with accessible websites stands out among major brands. An accessible site is important for inclusion and brand value. Analysis, implementation, and correction of accessibility in web applications.',
+    description: 'Accessibility audits, WCAG compliance, inclusive interfaces and accessibility implementation.'
   },
+  {
+    icon: 'speedometer',
+    title: 'Performance Optimization',
+    description: 'Application optimization, Core Web Vitals improvements, lazy loading, rendering optimization and bundle reduction.'
+  },
+  {
+    icon: 'tools',
+    title: 'Code Rescue',
+    description: 'Refactoring legacy applications, bug fixing, modernization and migration to modern Front-end technologies.'
+  },
+  {
+    icon: 'phone',
+    title: 'Responsive Interfaces',
+    description: 'Responsive interfaces optimized for desktop, tablet and mobile with focus on usability and performance.'
+  }
 ]

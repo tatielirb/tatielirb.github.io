@@ -12,7 +12,7 @@ export const menuSite = [
     href: '#skill',
   },
   {
-    name: 'What I do',
+    name: 'How I Can Help',
     href: '#services-offered',
   },
   {
